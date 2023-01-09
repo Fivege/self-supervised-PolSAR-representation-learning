@@ -8,12 +8,12 @@ This repository is an implementation of "Exploring PolSAR Images Representation 
 
 # Training
 Self-supervised pretrain
-  python pretrain.py
+    python pretrain.py
 
 Linear evaluation
-  python linearevaluation.py
-
-Adaptation of data preprocessing code is required when you use your own data
+    python linearevaluation.py
+    
+When you use your own data, you need to modify the data preprocessing code to adapt to the corresponding data set.
 # Citation
     @ARTICLE{9854883,  
     author={Zhang, Wu and Pan, Zongxu and Hu, Yuxin},  

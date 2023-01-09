@@ -7,11 +7,11 @@ This repository is an implementation of "Exploring PolSAR Images Representation 
 -Tensorflow (2.3)
 
 # Training
-Self-supervised pretrain
-    python pretrain.py
+Self-supervised pretrain  
+    'python pretrain.py'
 
-Linear evaluation
-    python linearevaluation.py
+Linear evaluation  
+    'python linearevaluation.py'
     
 When you use your own data, you need to modify the data preprocessing code to adapt to the corresponding data set.
 # Citation

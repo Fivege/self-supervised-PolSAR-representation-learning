@@ -161,7 +161,7 @@ def main():
                 print('[Epoch {}/{} Batch {}/{}] Loss={:.5f}.'.format(epoch_id+1, num_epochs, batch_id+1, batches_per_epoch, loss))
 
         if (epoch_id + 1) % save_every == 0:
-            f_online.save_weights('f_online_{}.h5'.format(epoch_id + 1))
+            f_online.save_weights('pretrain_weights.h5')
             #f_target.save_weights('zbn4w_target_{}.h5'.format(epoch_id + 1))
             print('Weights of f saved.')
     
